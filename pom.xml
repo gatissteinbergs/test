@@ -102,27 +102,27 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>pl.project13.maven</groupId>
-                <artifactId>git-commit-id-plugin</artifactId>
-                <version>2.2.1</version>
-                <configuration>
-                    <excludeProperties>
-                        <excludeProperty>git.commit.id.describe-short</excludeProperty>
-                        <excludeProperty>git.commit.id.describe</excludeProperty>
-                    </excludeProperties>
-                    <includeOnlyProperties>
-                        <includeOnlyProperty>git.commit.id</includeOnlyProperty>
-                        <includeOnlyProperty>git.build.time</includeOnlyProperty>
-                        <includeOnlyProperty>git.branch</includeOnlyProperty>
-                        <includeOnlyProperty>git.commit.id.abbrev</includeOnlyProperty>
-                    </includeOnlyProperties>
-                </configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+            <!--</plugin>-->
+            <!--<plugin>-->
+                <!--<groupId>pl.project13.maven</groupId>-->
+                <!--<artifactId>git-commit-id-plugin</artifactId>-->
+                <!--<version>2.2.1</version>-->
+                <!--<configuration>-->
+                    <!--<excludeProperties>-->
+                        <!--<excludeProperty>git.commit.id.describe-short</excludeProperty>-->
+                        <!--<excludeProperty>git.commit.id.describe</excludeProperty>-->
+                    <!--</excludeProperties>-->
+                    <!--<includeOnlyProperties>-->
+                        <!--<includeOnlyProperty>git.commit.id</includeOnlyProperty>-->
+                        <!--<includeOnlyProperty>git.build.time</includeOnlyProperty>-->
+                        <!--<includeOnlyProperty>git.branch</includeOnlyProperty>-->
+                        <!--<includeOnlyProperty>git.commit.id.abbrev</includeOnlyProperty>-->
+                    <!--</includeOnlyProperties>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
             <!-- display active profile in compile phase -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
